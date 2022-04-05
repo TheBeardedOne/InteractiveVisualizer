@@ -21,13 +21,13 @@ public class CinemachineFreeLookZoom : MonoBehaviour
      [AxisStateProperty]
      public AxisState zAxis = new AxisState(0, 1, false, true, 50f, 0.1f, 0.1f, "Mouse ScrollWheel", false);
 
-     void OnValidate()
+     private void OnValidate()
      {
           minScale = Mathf.Max(0.01f, minScale);
           maxScale = Mathf.Max(minScale, maxScale);
      }
 
-     void Awake()
+     private void Awake()
      {
           freelook = GetComponentInChildren<CinemachineFreeLook>();
           if (freelook != null && originalOrbits.Length == 0)
@@ -42,7 +42,7 @@ public class CinemachineFreeLookZoom : MonoBehaviour
           }
      }
 
-     void Update()
+     private void Update()
      {
           if (freelook != null && !MenuManager.instance.IsMenuOpen())
           {

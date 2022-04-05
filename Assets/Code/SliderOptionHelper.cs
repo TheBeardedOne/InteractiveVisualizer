@@ -1,9 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+/// <summary>
+/// This helper class assists in translating the scriptable object data onto the newly created option.
+/// The helper also invokes the assigned event when it is interacted with.
+/// </summary>
 public class SliderOptionHelper : MonoBehaviour
 {
 		 [SerializeField] private Slider m_OptionSlider;

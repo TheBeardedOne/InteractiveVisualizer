@@ -1,9 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+/// <summary>
+/// The MenuManager manages events related to overall menu navigation
+/// </summary>
 public class MenuManager : MonoBehaviour
 {
 		 public static MenuManager instance;
@@ -38,7 +39,7 @@ public class MenuManager : MonoBehaviour
 
 		 ////////////////////////////////////////////////////////////////////////////////
 
-		 public void OnToggleOptionsUI(Animation anim)
+		 private void OnToggleOptionsUI(Animation anim)
 		 {
 					if (m_MenuOpen)
 							 anim.Play("OptionsIn");

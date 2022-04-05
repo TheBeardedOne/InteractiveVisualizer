@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(fileName = "MaterialButtonObject", menuName = "ScriptableObjects/MaterialButtonObject", order = 1)]
+[CreateAssetMenu(fileName = "MaterialButtonObject", menuName = "VisualizerOption/MaterialButtonObject", order = 2)]
 public class MaterialButtonOptionScriptableObject : ButtonOptionScriptableObject
 {
      public Material m_OptionMaterial;

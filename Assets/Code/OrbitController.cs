@@ -1,8 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
+/// <summary>
+/// This class controls the camera orbit, using Cinemachine
+/// </summary>
 public class OrbitController : MonoBehaviour
 {
 		 public float m_FollowChangeSpeed;

@@ -2,7 +2,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-
+/// <summary>
+/// This helper class assists in translating the scriptable object data onto the newly created option.
+/// The helper also invokes the assigned event when it is interacted with.
+/// </summary>
 public class MaterialOptionButtonHelper : MonoBehaviour
 {
      [SerializeField] private Button m_OptionButton;

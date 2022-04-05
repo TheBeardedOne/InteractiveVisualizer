@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(fileName = "ModelButtonOption", menuName = "ScriptableObjects/ModelButtonOption", order = 1)]
+[CreateAssetMenu(fileName = "ModelButtonOption", menuName = "VisualizerOption/ModelButtonOption", order = 3)]
 public class ModelButtonOptionScriptableObject : ButtonOptionScriptableObject
 {
      public GameObject m_ModelPrefab;

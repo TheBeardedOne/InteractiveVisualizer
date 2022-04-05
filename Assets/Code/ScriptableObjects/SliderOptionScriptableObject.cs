@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(fileName = "SliderOption", menuName = "ScriptableObjects/SliderOption", order = 1)]
+[CreateAssetMenu(fileName = "SliderOption", menuName = "VisualizerOption/SliderOption", order = 1)]
 public class SliderOptionScriptableObject : OptionsScriptableObject
 {
 		 public float m_MinimumValue;

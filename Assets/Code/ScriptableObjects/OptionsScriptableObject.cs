@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public enum EOptionCategory 
@@ -12,7 +10,7 @@ public enum EOptionCategory
 		 Cam = 5
 };
 
-[CreateAssetMenu(fileName = "Resources/VisualizerOptions", menuName = "ScriptableObjects/BaseOption", order = 1)]
+
 public class OptionsScriptableObject : ScriptableObject
 {
 		 public string m_OptionName;
