@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+/// <summary>
+/// The DataManager manages the loading and population of options
+/// </summary>
 public class DataManager : MonoBehaviour
 {
 		 ////////////////////////////////////////////////////////////////////////////////
 
-		 public void Start()
+		 private void Start()
 		 {
 					// Populate button options
 					PopulateModelButtonOptions();

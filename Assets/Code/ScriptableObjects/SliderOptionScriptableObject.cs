@@ -10,6 +10,6 @@ public class SliderOptionScriptableObject : OptionsScriptableObject
 		 public float m_MaximumValue;
 		 public bool m_UseWholeNumbers;
 
-		 public UnityEvent<SliderOptionHelper> m_InitializingEvent; // Having an initializing event allows the developer to modify in-editor values without having to manually return to the option to change the start value
+		 public UnityEvent<SliderOptionHelper> m_InitializingEvent; // Having an initializing event allows the developer to modify in-editor values without having to manually return to the option
 		 public UnityEvent<float> m_SliderEvent;
 }

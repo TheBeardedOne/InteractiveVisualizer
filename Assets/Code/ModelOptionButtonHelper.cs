@@ -15,7 +15,7 @@ public class ModelOptionButtonHelper : MonoBehaviour
           m_OptionImage.texture = newData.m_ButtonImage;
           m_OptionTitle.text = newData.m_OptionName;
           m_OptionData = newData;
-          m_OptionImage.texture = AssetPreview.GetAssetPreview(newData.m_ModelPrefab);
+          m_OptionImage.texture = newData.m_ButtonImage;
           m_OptionButton.onClick.AddListener(OnButtonClicked);
      }
 
