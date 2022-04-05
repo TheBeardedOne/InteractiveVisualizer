@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f31a82d6368dc54084ec44de39292d9, type: 3}
+  m_Name: GreyMaterialOption
+  m_EditorClassIdentifier: 
+  m_OptionName: Default Grey
+  m_OptionCategory: 2
+  m_OptionPrefab: {fileID: 5657272457844063812, guid: 5bf6d69663b81b4409d0fe0542b0765e, type: 3}
+  m_ButtonImage: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  m_OptionMaterial: {fileID: 2100000, guid: cbe45c4a8718da34cbb0f20041654624, type: 2}
+  m_MaterialChangeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6413615608776084782, guid: f4b34e225898f4d4282c350783e29147, type: 3}
+        m_TargetAssemblyTypeName: OptionsManager, Assembly-CSharp
+        m_MethodName: ChangeCurrentModelMaterial
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
