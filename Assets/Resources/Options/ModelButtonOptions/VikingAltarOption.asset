@@ -15,7 +15,7 @@ MonoBehaviour:
   m_OptionName: Viking Altar
   m_OptionCategory: 0
   m_OptionPrefab: {fileID: 4442457348272090627, guid: 1e13a00361ab554429dc31a0c207dbd1, type: 3}
-  m_ButtonImage: {fileID: 0}
+  m_ButtonImage: {fileID: 2800000, guid: b167ff3b5edf38d47901c7521df8db17, type: 3}
   m_ModelPrefab: {fileID: 1779416118987320, guid: 0d0b028e536147845bc7bf87d17e663c, type: 3}
   m_ModelChangeEvent:
     m_PersistentCalls:

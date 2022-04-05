@@ -15,7 +15,7 @@ MonoBehaviour:
   m_OptionName: Goddess
   m_OptionCategory: 0
   m_OptionPrefab: {fileID: 4442457348272090627, guid: 1e13a00361ab554429dc31a0c207dbd1, type: 3}
-  m_ButtonImage: {fileID: 0}
+  m_ButtonImage: {fileID: 2800000, guid: 381020e717bb85243a0ec1050b7096b6, type: 3}
   m_ModelPrefab: {fileID: 1806532716889014, guid: f8263a55d2748fd4c8585b87dea2b277, type: 3}
   m_ModelChangeEvent:
     m_PersistentCalls:

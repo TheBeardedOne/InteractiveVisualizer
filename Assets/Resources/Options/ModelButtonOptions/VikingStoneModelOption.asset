@@ -15,7 +15,7 @@ MonoBehaviour:
   m_OptionName: Viking Stone
   m_OptionCategory: 0
   m_OptionPrefab: {fileID: 4442457348272090627, guid: 1e13a00361ab554429dc31a0c207dbd1, type: 3}
-  m_ButtonImage: {fileID: 0}
+  m_ButtonImage: {fileID: 2800000, guid: df961d4cbca6421459cf6028590c19b8, type: 3}
   m_ModelPrefab: {fileID: 1953128006348380, guid: 1b88ff9d59519c644976d2defef79c16, type: 3}
   m_ModelChangeEvent:
     m_PersistentCalls:

@@ -15,7 +15,7 @@ MonoBehaviour:
   m_OptionName: Lady Statue
   m_OptionCategory: 0
   m_OptionPrefab: {fileID: 4442457348272090627, guid: 1e13a00361ab554429dc31a0c207dbd1, type: 3}
-  m_ButtonImage: {fileID: 0}
+  m_ButtonImage: {fileID: 2800000, guid: 4bac3c2c2998de74a879ee49740f4722, type: 3}
   m_ModelPrefab: {fileID: 1341168490421198, guid: 1ae267f78f6ccc8448a3c15d50e90eba, type: 3}
   m_ModelChangeEvent:
     m_PersistentCalls:
