@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2153715584735801461}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 607760618445055705}
   m_HandleRect: {fileID: 785128066910823007}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1204,6 +1204,7 @@ GameObject:
   - component: {fileID: 7691002772003343421}
   - component: {fileID: 7691002772003343392}
   - component: {fileID: 3818970232331273107}
+  - component: {fileID: 438837854}
   m_Layer: 5
   m_Name: ModelSelectionList
   m_TagString: Untagged
@@ -1228,8 +1229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.123794556, y: 0.000030517578}
-  m_SizeDelta: {x: -0.2479, y: -0.0004}
+  m_AnchoredPosition: {x: -0.123794556, y: 0}
+  m_SizeDelta: {x: -0.2479, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &7691002772003343392
 CanvasRenderer:
@@ -1263,6 +1264,20 @@ MonoBehaviour:
   m_Spacing: {x: 11.16, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &438837854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7691002772003343420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!1 &7691002772297630143
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,6 +1575,7 @@ GameObject:
   - component: {fileID: 7741852620345776954}
   - component: {fileID: 7741852620345776956}
   - component: {fileID: 7741852620345776955}
+  - component: {fileID: 691454452}
   m_Layer: 5
   m_Name: TextureSelectionList
   m_TagString: Untagged
@@ -1612,13 +1628,27 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 4
+  m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 200, y: 250}
   m_Spacing: {x: 11.16, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &691454452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7741852620345776953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!1 &7741852620670740120
 GameObject:
   m_ObjectHideFlags: 0
