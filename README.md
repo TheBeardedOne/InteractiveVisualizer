@@ -6,7 +6,7 @@
 
 - You can find the scene "MainScene" in the Scenes folder
 
-- Start the application as a build or in editor
+- Enter play mode, or create a standalone build
 - Click and hold left mouse button to rotate the camera
 - Click and hold right mouse button to pan the camera up and down
 - Click on the cog button in the bottom right to open the options menu(Camera inputs are not allowed while the menu is open. This is indicated by an icon next to the Cog button)
@@ -17,7 +17,6 @@
 - The InteractiveVisualizer also works on Android devices
 - Use one finger to drag and rotate the camera
 - Use two fingers and drag to to pan the camera up and down
-- Zooming is not functional for mobile
 
 ## Challenges & Solutions ##
 
@@ -49,7 +48,7 @@
 
 - Options can be assigned a name, a category (Lighting, PostEffect, etc), and a prefab (the actual UI object). Child option types will also have relevant data attached like floats for max and min value for sliders (among other things).
 
-- Each option also has an initializing UnityEvent and activating UnityEvent for when the option is interacted with. 
+- Each option also has an initializing UnityEvent and activating UnityEvent for when the option is interacted with. I really enjoy using UnityEvents because it allows for me to setup listeners in the inspector and saved in prefabs. This allows simple functionality to be encapsulated in a prefab and allow designers and other non-coders using the editor to also make use of the events. 
 
 ## Future Possible Improvements And Notes ##
 
@@ -58,3 +57,5 @@
 - I also thought it would be cool to have a multi-slider option type to better handle options that are related to each other. (So a single option could handle multiple values by having multiple sliders)
 
 - The GameOptionsManager is a class that is meant to house all the methods that power the manipulation of option values. However, it is at risk of becoming a huge mega-class. With more time, I would split this up into smaller more manageable  classes especially as the number of options grows.
+
+- With more time, zooming for mobile would be a requirement. To implement this, I would use the delta (scaled by the screen resolution) of the two fingers  pinching the screen to zoom the camera
